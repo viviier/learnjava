@@ -1,0 +1,13 @@
+package book;
+
+public class bookTest {
+	{
+		int b = 10;
+	}
+
+	public static void main(String[] args) {
+		bookTest a = new bookTest();
+		System.out.println(a.b);
+		}
+
+}

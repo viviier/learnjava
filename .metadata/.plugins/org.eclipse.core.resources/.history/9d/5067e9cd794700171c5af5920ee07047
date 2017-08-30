@@ -1,0 +1,19 @@
+package book;
+
+import java.awt.*;
+
+public class awtTest1 extends Frame{
+
+	awtTest1(String str) {
+		super(str);
+		setBounds(100, 100, 300, 200);
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		awtTest1 a = new awtTest1("你好");
+		a.show();
+	}
+
+}

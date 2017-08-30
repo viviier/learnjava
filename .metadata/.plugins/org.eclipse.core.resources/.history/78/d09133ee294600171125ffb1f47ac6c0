@@ -1,0 +1,10 @@
+package how2j;
+
+public class error {
+	// 导致程序的正常流程被中断的事件，叫做异常
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

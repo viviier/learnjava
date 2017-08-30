@@ -1,0 +1,6 @@
+package how2j;
+
+public interface Pet {
+	public abstract String getName(Animal animal);
+	public abstract void setName(Animal animal);
+}

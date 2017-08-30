@@ -1,0 +1,18 @@
+package book;
+
+public class fourQuestion {
+
+	int[] a = new int[]{1,2,3,4};
+	
+	public void temp(int i, int y) {
+		int temp;
+		temp = i;
+		i = y;
+		y = temp;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package how2j;
+
+public class datenow {
+	public static void main(String[] args) {
+		
+	}
+}

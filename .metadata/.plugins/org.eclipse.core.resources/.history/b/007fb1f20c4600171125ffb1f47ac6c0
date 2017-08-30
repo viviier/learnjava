@@ -1,0 +1,38 @@
+package how2j;
+
+public class Cat extends Animal implements Pet{
+	private String name;
+	
+	public Cat(String name) {
+		super(4);
+		this.name = name;
+	}
+	
+	public Cat() {
+		this.Cat("");
+	}
+
+	@Override
+	public String getName(Animal animal) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setName(Animal animal) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		
+	}
+}

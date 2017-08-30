@@ -1,0 +1,9 @@
+package how2j;
+
+public class Cat extends Animal{
+	private String name = "";
+	
+	public Cat() {
+		
+	}
+}

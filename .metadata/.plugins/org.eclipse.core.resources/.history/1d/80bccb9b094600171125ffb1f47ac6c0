@@ -1,0 +1,12 @@
+package how2j;
+
+public class Animal {
+	protected int legs = 0;
+	
+	protected Animal(int legs) {
+		this.legs = legs;
+	}
+	
+	public abstract void eat();
+
+}

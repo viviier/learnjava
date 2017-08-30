@@ -1,0 +1,29 @@
+package book;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class swingTest extends JFrame{
+	
+	private JLabel lab1, lab2;
+	private JButton btn1, btn2;
+	
+	swingTest() {
+		super("我是title");
+		Container c = getContentPane();
+		c.setLayout(new FlowLayout(100, 100, 10));
+		Icon icon1 = new ImageIcon("pictures\\29.gif");
+		lab1 = new JLabel("姓名", icon1, SwingConstants.CENTER);
+		lab2 = new JLabel("密码");
+		JTextField txt1 = new JTextField(20);
+		JTextField txt2 = new JTextField(20);
+		btn1 = new JButton("ok");
+		btn2 = new JButton("cancle");
+		c.add(lab1);c.add(lab2);c.add(txt1);c.add(txt2);c.add(btn1);c.add(btn2);
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

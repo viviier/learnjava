@@ -1,0 +1,7 @@
+package mooc;
+
+public class Parent {
+	public Parent() {
+		System.out.println("我是弗雷");
+	}
+}

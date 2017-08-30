@@ -1,0 +1,13 @@
+package how2j;
+
+public class Animal {
+	protected int legs = 0;
+	
+	protected Anima(int legs) {
+		this.legs  legs;
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

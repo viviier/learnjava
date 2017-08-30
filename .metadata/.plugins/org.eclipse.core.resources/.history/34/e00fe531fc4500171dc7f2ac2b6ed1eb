@@ -1,0 +1,27 @@
+package mooc;
+
+public class Parent {
+	int[] a = new int[]{564,6,456498,654123,12315,123456,111,25,132};
+	
+	public void bubbleSort(int[] a) {
+		int len = a.length;
+		int temp;
+		String str = null;
+		
+		for(int outher = len; outher >= 2;outher--) {
+			for(int inner = 0; inner < outher-1;inner++) {
+				if(a[inner] > a[inner+1]) {
+					temp = a[inner];
+					a[inner] = a[inner+1];
+					a[inner+1] = temp;
+					str += a[inner];
+				}
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		Parent parent = new Parent();
+		parent.bubbleSort(parent.a);
+	}
+}

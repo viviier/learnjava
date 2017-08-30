@@ -1,0 +1,13 @@
+package mooc;
+
+public class ConcatArray {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] a = new int[]{1, 2, 3, 4};
+		int[] b = new int[]{5, 6, 7, 8};
+		
+		int[] concat = (int[])ArrayUtils.addAll(a, b);
+	}
+
+}

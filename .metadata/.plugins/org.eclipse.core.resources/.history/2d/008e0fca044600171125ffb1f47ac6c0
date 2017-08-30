@@ -1,0 +1,20 @@
+package mooc;
+
+public class Initail {
+	
+	public String name = "some hreo";
+	
+	public Initail() {
+		name = "one hero";
+	}
+	
+	{
+		name = "two hero";
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(name);
+	}
+
+}

@@ -1,0 +1,12 @@
+package book;
+
+import java.awt.*;
+
+public class awtTest3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

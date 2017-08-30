@@ -1,0 +1,11 @@
+package how2j;
+
+public class Spider extends Animal{
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

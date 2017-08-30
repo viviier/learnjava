@@ -1,0 +1,11 @@
+package how2j;
+
+public class Stringfunc {
+	String str = new String("abcdefg");
+	
+	// charAt
+	char strCharat = str.charAt(5);
+	
+	// toCharArray
+	char strChararray = str.CharArray();
+}

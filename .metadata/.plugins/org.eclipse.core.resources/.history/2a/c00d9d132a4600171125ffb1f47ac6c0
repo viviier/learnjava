@@ -1,0 +1,13 @@
+package how2j;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class testGUI {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

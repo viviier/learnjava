@@ -1,0 +1,9 @@
+package how2j;
+
+public class Animal {
+	protected int legs = 0;
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package book;
+
+public class fourQuestion {
+
+	String str = "nihaohahah";
+	
+	public static void main(String[] args) {
+		boolean t = (true|false);
+		System.out.println(t);
+	}
+
+}
